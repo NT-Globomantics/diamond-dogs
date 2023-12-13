@@ -1,4 +1,4 @@
-variable "prefix" {
+/*variable "prefix" {
   type        = string
   description = "(Required) This prefix will be included in the name of most resources."
   default     = "Diamonddogs"
@@ -9,7 +9,7 @@ variable "project" {
   description = "(Required) Application project name."
   default     = "NT-Test-1"
 }
-
+*/
 variable "environment" {
   type        = string
   description = "(Optional) Application environment for deployment, defaults to development."
